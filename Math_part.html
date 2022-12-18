@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Math_part</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Math_part</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5C%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%5Cpycharmprojects%5Cpythonproject%5Cmath_part.py">c:\users\максим\pycharmprojects\pythonproject\math_part.py</a></font></td></tr></table>
+    <p><tt>The&nbsp;program&nbsp;block&nbsp;responsible&nbsp;for&nbsp;performing&nbsp;mathematical&nbsp;operations&nbsp;with&nbsp;vectors.<br>
+He&nbsp;is&nbsp;mainly&nbsp;engaged&nbsp;only&nbsp;in&nbsp;calculations.&nbsp;The&nbsp;correctness&nbsp;of&nbsp;the&nbsp;data&nbsp;is&nbsp;checked&nbsp;in&nbsp;main.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-appending_vector"><strong>appending_vector</strong></a>(vector_smaller, vector_larger)</dt><dd><tt>reduces&nbsp;vectors&nbsp;to&nbsp;a&nbsp;single&nbsp;space<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_smaller:the&nbsp;vector&nbsp;whose&nbsp;space&nbsp;needs&nbsp;to&nbsp;be&nbsp;enlarged<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_larger:the&nbsp;vector&nbsp;space&nbsp;to&nbsp;which&nbsp;you&nbsp;need&nbsp;to&nbsp;increase<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:corrected&nbsp;vector</tt></dd></dl>
+ <dl><dt><a name="-check4three"><strong>check4three</strong></a>(vector)</dt><dd><tt>checks&nbsp;whether&nbsp;the&nbsp;vector&nbsp;of&nbsp;vectors&nbsp;is&nbsp;a&nbsp;three-dimensional&nbsp;space<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector:the&nbsp;introduced&nbsp;vector<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:a&nbsp;vector&nbsp;brought&nbsp;to&nbsp;three-dimensional&nbsp;space&nbsp;or&nbsp;says&nbsp;that&nbsp;everything&nbsp;is&nbsp;fine</tt></dd></dl>
+ <dl><dt><a name="-check_space_vectors"><strong>check_space_vectors</strong></a>(vector_left, vector_right)</dt><dd><tt>checks&nbsp;the&nbsp;difference&nbsp;of&nbsp;the&nbsp;vector&nbsp;space<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_left:the&nbsp;left&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_right:the&nbsp;right&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:calls&nbsp;the&nbsp;function&nbsp;of&nbsp;increasing&nbsp;the&nbsp;vector&nbsp;space&nbsp;or&nbsp;it&nbsp;says&nbsp;that&nbsp;everything&nbsp;is&nbsp;fine</tt></dd></dl>
+ <dl><dt><a name="-correction_float_data"><strong>correction_float_data</strong></a>(final_vector)</dt><dd><tt>corrects&nbsp;fractional&nbsp;data,&nbsp;solves&nbsp;the&nbsp;problem&nbsp;3.3+6.6=9.899999999999999<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;final_vector:data&nbsp;that&nbsp;needs&nbsp;to&nbsp;be&nbsp;checked&nbsp;for&nbsp;the&nbsp;correctness&nbsp;of&nbsp;fractional&nbsp;numbers<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:data&nbsp;with&nbsp;corrected&nbsp;fractional&nbsp;numbers</tt></dd></dl>
+ <dl><dt><a name="-product_vectors_scalar"><strong>product_vectors_scalar</strong></a>(vector_left, vector_right)</dt><dd><tt>finds&nbsp;the&nbsp;scalar&nbsp;product&nbsp;of&nbsp;vectors<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_left:the&nbsp;left&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_right:the&nbsp;right&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:a&nbsp;number&nbsp;that&nbsp;is&nbsp;a&nbsp;scalar&nbsp;product&nbsp;of&nbsp;vectors</tt></dd></dl>
+ <dl><dt><a name="-product_vectors_vector"><strong>product_vectors_vector</strong></a>(vector_left, vector_right)</dt><dd><tt>finds&nbsp;the&nbsp;vector&nbsp;product&nbsp;of&nbsp;vectors<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_left:the&nbsp;left&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_right:the&nbsp;right&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:a&nbsp;vector&nbsp;that&nbsp;is&nbsp;a&nbsp;vector&nbsp;product&nbsp;of&nbsp;the&nbsp;introduced&nbsp;vectors</tt></dd></dl>
+ <dl><dt><a name="-question_about_appending"><strong>question_about_appending</strong></a>(vector_first, vector_second)</dt><dd><tt>calls&nbsp;the&nbsp;function&nbsp;of&nbsp;increasing&nbsp;the&nbsp;vector&nbsp;space<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_first:the&nbsp;first&nbsp;argument&nbsp;is&nbsp;a&nbsp;vector<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_second:the&nbsp;second&nbsp;argument&nbsp;is&nbsp;a&nbsp;vector<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:calls&nbsp;the&nbsp;function&nbsp;of&nbsp;increasing&nbsp;the&nbsp;vector&nbsp;space</tt></dd></dl>
+ <dl><dt><a name="-question_about_change_operator"><strong>question_about_change_operator</strong></a>(vector_left, vector_right)</dt><dd><tt>changes&nbsp;the&nbsp;operation&nbsp;from&nbsp;a&nbsp;vector&nbsp;product&nbsp;to&nbsp;a&nbsp;scalar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_left:the&nbsp;left&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_right:the&nbsp;right&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:calling&nbsp;the&nbsp;scalar&nbsp;product</tt></dd></dl>
+ <dl><dt><a name="-vector_division_scalar"><strong>vector_division_scalar</strong></a>(vector, scalar)</dt><dd><tt>division&nbsp;the&nbsp;modulus&nbsp;by&nbsp;a&nbsp;scalar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector:accepted&nbsp;vector<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;scalar:accepted&nbsp;scalar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:vector&nbsp;divides&nbsp;by&nbsp;a&nbsp;scalar</tt></dd></dl>
+ <dl><dt><a name="-vector_modulus"><strong>vector_modulus</strong></a>(vector)</dt><dd><tt>find&nbsp;the&nbsp;modulus&nbsp;of&nbsp;the&nbsp;vector,&nbsp;that&nbsp;is,&nbsp;its&nbsp;length<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector:accepted&nbsp;vector<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:vector&nbsp;length</tt></dd></dl>
+ <dl><dt><a name="-vector_multiplication_scalar"><strong>vector_multiplication_scalar</strong></a>(vector, scalar)</dt><dd><tt>multiplies&nbsp;the&nbsp;modulus&nbsp;by&nbsp;a&nbsp;scalar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector:accepted&nbsp;vector<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;scalar:accepted&nbsp;scalar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:vector&nbsp;multiplied&nbsp;by&nbsp;a&nbsp;scalar</tt></dd></dl>
+ <dl><dt><a name="-vectors_difference"><strong>vectors_difference</strong></a>(vector_left, vector_right)</dt><dd><tt>finds&nbsp;the&nbsp;difference&nbsp;of&nbsp;vectors<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_left:the&nbsp;left&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_right:the&nbsp;right&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:vector&nbsp;difference</tt></dd></dl>
+ <dl><dt><a name="-vectors_sum"><strong>vectors_sum</strong></a>(vector_left, vector_right)</dt><dd><tt>find&nbsp;the&nbsp;vector&nbsp;sum<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_left:the&nbsp;left&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;vector_right:the&nbsp;right&nbsp;argument&nbsp;of&nbsp;the&nbsp;operation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:return:vector&nbsp;sum</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>accuracy</strong> = 10<br>
+<strong>return_error</strong> = {0: 'One of the values inside the _0 vector is not a number.', 1: 'It is impossible to perform such an operation with vectors of different space measures.', 2: 'The entered data value is not an integer', 3: 'The entered data _0 and _1 are not a vector and a scalar', 4: 'It is possible to find a vector product only for vectors of Euclidean space.', 5: '_0 impossible for a number and a vector', 6: 'The modulus of a vector is impossible for a number', 7: 'Several in a row _0', 8: 'Check _0', 9: 'We have input characters that this program cannot work with.', ...}</td></tr></table>
+</body></html>
