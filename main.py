@@ -80,9 +80,9 @@ scalar product or scalar on a vector
         :return:a number that is a scalar product or scalar on a vector
         """
         if type(self) == int or type(self) == float:
-            return vector_division_scalar(self, other.value)
+            return VectorCalculator(vector_division_scalar(self, other.value))
         elif type(other) == int or type(other) == float:
-            return vector_division_scalar(self.value, other)
+            return VectorCalculator(vector_division_scalar(self.value, other))
         else:
             print(return_error[4])
             raise SystemExit
@@ -261,7 +261,6 @@ Converts a string to an expression via eval().
         return outp
     else:
         return outp.value
-
 
 
 HELP = '''HELP:\n
