@@ -142,10 +142,10 @@ Is it possible to overflow them using eval(). Closing brackets. Comma point oper
         print(return_error[8].replace('_0', '()'))
         raise SystemExit
     if oper.count('[') != oper.count(']'):
-        print(return_error[8].replace('_0', '()'))
+        print(return_error[8].replace('_0', '[]'))
         raise SystemExit
     if oper.count('{') != oper.count('}'):
-        print(return_error[8].replace('_0', '()'))
+        print(return_error[8].replace('_0', '{}'))
         raise SystemExit
     if ',,' in oper:
         print(return_error[7].replace('_0', ','))
