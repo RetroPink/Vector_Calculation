@@ -274,12 +274,13 @@ Scalar product of vectors in coordinates a,b,c and x,y,z:......[a,b,c]*[x,y,z]\n
 The product of the number a by the vector at the coordinates x,y,z:..a*[x,y,z]\n
 If you want to stop the program, enter "Esc"'''
 
-while True:
-    enter = input('\nEnter a vector expression: (if you need help, enter "HELP")\n')
-    if enter == 'HELP':
-        print(HELP)
-    elif enter == 'Esc':
-        print('Good bye!')
-        break
-    else:
-        print(log_oper(enter))
+if __name__ == "__main__":
+    while True:
+        enter = input('\nEnter a vector expression: (if you need help, enter "HELP")\n')
+        if enter == 'HELP':
+            print(HELP)
+        elif enter == 'Esc':
+            print('Good bye!')
+            break
+        else:
+            print(log_oper(enter))
